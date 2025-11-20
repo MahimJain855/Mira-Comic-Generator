@@ -89,7 +89,9 @@
   </div>
 
   <script>
-    const API_KEY_VISION = 'AIzaSyDezPi3S1zJH1H3kopflG8KalBiDe_3f-0'; // Replace with your Google Vision API key
+    const apiKey = import.meta.env.VITE_GOOGLE_API_KEY;
+
+     // Replace with your Google Vision API key
     const API_KEY_MIRA = 'sb-9c307773dcea9649fb947457ba4d23c9'; // Replace w
     const dropZone = document.getElementById('drop-zone');
     const fileInput = document.getElementById('file-input');
